@@ -2,8 +2,32 @@
     "format":  "data-studio-update-feed",
     "schemaVersion":  1,
     "stable":  "2026.11.602",
-    "beta":  "2026.11.1201",
+    "beta":  "2026.11.1202",
     "releases":  [
+                     {
+                         "version":  "2026.11.1202",
+                         "date":  "2026-11-12",
+                         "channel":  "beta",
+                         "important":  false,
+                         "notes":  "### Added\r\n- **Updates install from the app**: **Update** (or Install in Settings → Updates → Choose a version…) downloads the new version, checks it is the genuine release, and installs it. The installed app installs on **Restart now** or when you close it; the portable app replaces its exe (same name, so shortcuts keep working) and starts the new version next time, keeping the previous one to go back to. Choose in Settings → Updates whether to be asked first, download and then be asked to restart (the default), or just use it next time. Going back to an older version backs up your settings first. If the network blocks the download, it can still be downloaded in the browser",
+                         "page":  "https://github.com/ravichowdhury88/data-studio-releases/releases/tag/v2026.11.1202",
+                         "files":  {
+                                       "installer":  {
+                                                         "name":  "Data-Studio-2026.11.1202-setup.exe",
+                                                         "url":  "https://github.com/ravichowdhury88/data-studio-releases/releases/download/v2026.11.1202/Data-Studio-2026.11.1202-setup.exe",
+                                                         "size":  13732656,
+                                                         "sha256":  "034a4ac5b6547a52336000f7304f693df0d442d411214dbbe702e68bc972db03",
+                                                         "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTYUphZ2E4MHlzeG5iM3JFQ2NMKzVBb3VaUDlrMFF6ZFdJaENkQ1crcHluNGI4UkI4UmpZNFJ1UHltT0dKUnI2b3ZXb0pjYUloS2VUU0J1M2dRc3RRaDNlU1JjSmxiTmdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NTAwMzQxCWZpbGU6RGF0YS1TdHVkaW8tMjAyNi4xMS4xMjAyLXNldHVwLmV4ZQpkVGI0VHBuZ3hLU2NwaDdpVEphWjQ5S3g0Wlp1UW5TcGlwWWdONm5MYisvUEtkMFprVmFOU0l0TnJVTTB1eXJFdG1HeDdtc1pkRXpOVVhaamo0cTFDUT09Cg=="
+                                                     },
+                                       "portable":  {
+                                                        "name":  "Data-Studio-2026.11.1202-portable.exe",
+                                                        "url":  "https://github.com/ravichowdhury88/data-studio-releases/releases/download/v2026.11.1202/Data-Studio-2026.11.1202-portable.exe",
+                                                        "size":  50854688,
+                                                        "sha256":  "9143d3d81aad8582ce9114dbf277069fbd7dddd24f0f09e40721fcc4ac1279ef",
+                                                        "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTYUphZ2E4MHlzeHVBai9zQnFNZTJROTBEaTdMYVJLcnljN0EyTGxoU2V3SDd3ZEhZOFEvZ3lka1NFSWhRWXl2TzV5aEkyb0VzNDF5bEdpWFp5RExNY3hyRXk1cTUycGdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NTAwMzQ0CWZpbGU6RGF0YS1TdHVkaW8tMjAyNi4xMS4xMjAyLXBvcnRhYmxlLmV4ZQp2VXBTNTZTQWpBQ1FWYnFrQ3V6bjhjWUV1Q0dISlV5TWxjZlVKeXJHclkrbk9UWnQxOFFTNnVnWG9xUFg3d0cvVUpIWlRvTVc3NDZ6YzZ5NU51T3lBUT09Cg=="
+                                                    }
+                                   }
+                     },
                      {
                          "version":  "2026.11.1201",
                          "date":  "2026-11-12",
