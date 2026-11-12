@@ -2,8 +2,32 @@
     "format":  "data-studio-update-feed",
     "schemaVersion":  1,
     "stable":  "2026.11.602",
-    "beta":  "2026.11.1202",
+    "beta":  "2026.11.1203",
     "releases":  [
+                     {
+                         "version":  "2026.11.1203",
+                         "date":  "2026-11-12",
+                         "channel":  "beta",
+                         "important":  false,
+                         "notes":  "### Fixed\r\n- Research → Perioperative Table works on large datasets (those kept in the large-dataset engine, such as a joined STS export with thousands of columns). It said it wasn\u0027t supported for them yet. It reads only the fields the table needs, so the numbers are the same as for a smaller dataset; a table with very many fields on a very large dataset asks for fewer fields\r\n- Research → Perioperative Table: on a large dataset, the field list no longer shows every field as 100% complete before its details have loaded",
+                         "page":  "https://github.com/ravichowdhury88/data-studio-releases/releases/tag/v2026.11.1203",
+                         "files":  {
+                                       "installer":  {
+                                                         "name":  "Data-Studio-2026.11.1203-setup.exe",
+                                                         "url":  "https://github.com/ravichowdhury88/data-studio-releases/releases/download/v2026.11.1203/Data-Studio-2026.11.1203-setup.exe",
+                                                         "size":  13734456,
+                                                         "sha256":  "7db3cbf441efba2670a3afe222e16c584abc89a00b3066bbec035bef10dacd70",
+                                                         "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTYUphZ2E4MHlzeGkyY05lbTVWWHdUQWc1NmdwRTJDVUk5NWxqUmhWK1JzUi9hOWJhOVA3NldpNnF1NU9MUlJ2TFQxZU84cDRCMVBLQUhnQWdWcUI1aWhoSmlrRm16dEFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NTA1NzE3CWZpbGU6RGF0YS1TdHVkaW8tMjAyNi4xMS4xMjAzLXNldHVwLmV4ZQpWMTk1NlNSRmN5Rm1Ec0tSUGZUbWtEWTU2VVBPRWR2bUhwVUhnWGpMOFpxNTNZYnR4REloZ0JQTGs0Qjk0UmZpQzVpTG1jL3IwdG1WYkdQSVRMZjREZz09Cg=="
+                                                     },
+                                       "portable":  {
+                                                        "name":  "Data-Studio-2026.11.1203-portable.exe",
+                                                        "url":  "https://github.com/ravichowdhury88/data-studio-releases/releases/download/v2026.11.1203/Data-Studio-2026.11.1203-portable.exe",
+                                                        "size":  50864928,
+                                                        "sha256":  "5c7f80346e24f1f64e5e5438cad6311293b8b41dc9e2e2518a506d173e22d224",
+                                                        "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTYUphZ2E4MHlzeGxYN3g1YXBid3R5M29YVlg1WXZsK2JkelFWNnRkOGtjYnJld0VVRlNNWGNuVDM2REM3SFp5dll2by8xUFpieCszR2VHU1duTXRwZGVCaDZVTHBzSkFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NTA1NzE4CWZpbGU6RGF0YS1TdHVkaW8tMjAyNi4xMS4xMjAzLXBvcnRhYmxlLmV4ZQpJSmNIcHFLSEMvUHdVeHZaRUFWZkZDQmk4ZzdNb0o2K1ZPNUNoU05kYi83RU9SRWxaZC9oSzlYTSsyaVpLbEJrRSs1d01tQTVUWGpkY0ZtQWR3NUNBdz09Cg=="
+                                                    }
+                                   }
+                     },
                      {
                          "version":  "2026.11.1202",
                          "date":  "2026-11-12",
