@@ -2,8 +2,30 @@
     "format":  "data-studio-update-feed",
     "schemaVersion":  1,
     "stable":  "2026.11.602",
-    "beta":  "2026.11.1111",
+    "beta":  "2026.11.1201",
     "releases":  [
+                     {
+                         "version":  "2026.11.1201",
+                         "date":  "2026-11-12",
+                         "channel":  "beta",
+                         "important":  false,
+                         "notes":  "### Added\r\n- **Updates**: Data Studio checks for new versions (shortly after it starts, then once a day; turn it off in Settings → Updates). A note says when there\u0027s a newer version, and whether it corrects numbers in tables. **Settings → Updates → Choose a version…** lists every release with its notes, including betas if you choose, and downloads the right file (installer or portable) in your browser. Checking sends nothing about you or your data",
+                         "page":  "https://github.com/ravichowdhury88/data-studio-releases/releases/tag/v2026.11.1201",
+                         "files":  {
+                                       "installer":  {
+                                                         "name":  "Data-Studio-2026.11.1201-setup.exe",
+                                                         "url":  "https://github.com/ravichowdhury88/data-studio-releases/releases/download/v2026.11.1201/Data-Studio-2026.11.1201-setup.exe",
+                                                         "size":  13685240,
+                                                         "sha256":  "5570abab9b567e14535dc6385b58fa8f953e2ea95fe31a312d67d5c11834daab"
+                                                     },
+                                       "portable":  {
+                                                        "name":  "Data-Studio-2026.11.1201-portable.exe",
+                                                        "url":  "https://github.com/ravichowdhury88/data-studio-releases/releases/download/v2026.11.1201/Data-Studio-2026.11.1201-portable.exe",
+                                                        "size":  50700576,
+                                                        "sha256":  "29e34e2b87edf364719a6a80f269149217d1719a16f01042dd4ea01c63776137"
+                                                    }
+                                   }
+                     },
                      {
                          "version":  "2026.11.1111",
                          "date":  "2026-11-11",
