@@ -2,8 +2,30 @@
     "format":  "data-studio-update-feed",
     "schemaVersion":  1,
     "stable":  "2026.11.602",
-    "beta":  "",
+    "beta":  "2026.11.1111",
     "releases":  [
+                     {
+                         "version":  "2026.11.1111",
+                         "date":  "2026-11-11",
+                         "channel":  "beta",
+                         "important":  true,
+                         "notes":  "### Added\r\n- Research → Perioperative Table: **P-values in a stratified table**: across the whole cohort (as before, the default), within each stratum (a P-value column per stratum), or both\r\n- Research → Perioperative Table: **Show which test** adds a Test column naming each row\u0027s test\r\n- Research → Perioperative Table: **Welch\u0027s test for mean ± SD** (off by default, to keep matching R\u0027s tableone) tests mean ± SD rows without assuming equal spreads\r\n- Research → Perioperative Table: **Show SMD** adds a standardised mean difference column for two-group tables, as R\u0027s tableone computes it\r\n- Research → Perioperative Table: date fields can be added: they show the median date with the first and third quartile dates, and their p-value uses the Kruskal-Wallis test\r\n\r\n### Fixed\r\n- Research → Perioperative Table: in a stratified table, the group counts in brackets in **N (non-missing)** were each group\u0027s number of records, not the number with a value for the field (an unstratified table was right). **Regenerate stratified tables to correct them**; no other numbers change",
+                         "page":  "https://github.com/ravichowdhury88/data-studio-releases/releases/tag/v2026.11.1111",
+                         "files":  {
+                                       "installer":  {
+                                                         "name":  "Data-Studio-2026.11.1111-setup.exe",
+                                                         "url":  "https://github.com/ravichowdhury88/data-studio-releases/releases/download/v2026.11.1111/Data-Studio-2026.11.1111-setup.exe",
+                                                         "size":  13653792,
+                                                         "sha256":  "39cca802021d9f86301f631ad13ab908159ce3ba591d7e73de0d73fa8fe413a9"
+                                                     },
+                                       "portable":  {
+                                                        "name":  "Data-Studio-2026.11.1111-portable.exe",
+                                                        "url":  "https://github.com/ravichowdhury88/data-studio-releases/releases/download/v2026.11.1111/Data-Studio-2026.11.1111-portable.exe",
+                                                        "size":  50607904,
+                                                        "sha256":  "a70fef99e32ee298445d44f26402bce1df4c19fa412bf2d6aaacf73f811f77a0"
+                                                    }
+                                   }
+                     },
                      {
                          "version":  "2026.11.602",
                          "date":  "2026-11-06",
