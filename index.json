@@ -1,0 +1,30 @@
+{
+    "format":  "data-studio-update-feed",
+    "schemaVersion":  1,
+    "stable":  "2026.11.602",
+    "beta":  "",
+    "releases":  [
+                     {
+                         "version":  "2026.11.602",
+                         "date":  "2026-11-06",
+                         "channel":  "stable",
+                         "important":  false,
+                         "notes":  "### Added\r\n- REDCap Overview: a Trend widget shows records or forms done across your past refreshes, marks refreshes where the data dictionary changed, and prints in the Summary PDF",
+                         "page":  "https://github.com/ravichowdhury88/data-studio-releases/releases/tag/v2026.11.602",
+                         "files":  {
+                                       "installer":  {
+                                                         "name":  "Data-Studio-2026.11.602-setup.exe",
+                                                         "url":  "https://github.com/ravichowdhury88/data-studio-releases/releases/download/v2026.11.602/Data-Studio-2026.11.602-setup.exe",
+                                                         "size":  13080456,
+                                                         "sha256":  "dfe87707cd73e50ca9614799754788cb83f16e9bc00d9591e1266299263b9349"
+                                                     },
+                                       "portable":  {
+                                                        "name":  "Data-Studio-2026.11.602-portable.exe",
+                                                        "url":  "https://github.com/ravichowdhury88/data-studio-releases/releases/download/v2026.11.602/Data-Studio-2026.11.602-portable.exe",
+                                                        "size":  48406816,
+                                                        "sha256":  "06dafe03f5188f94feee8d3952144ce5705bc8639c2bd130694728e010851750"
+                                                    }
+                                   }
+                     }
+                 ]
+}
