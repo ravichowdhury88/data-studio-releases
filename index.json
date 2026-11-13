@@ -2,8 +2,32 @@
     "format":  "data-studio-update-feed",
     "schemaVersion":  1,
     "stable":  "2026.11.602",
-    "beta":  "2026.11.1205",
+    "beta":  "2026.11.1301",
     "releases":  [
+                     {
+                         "version":  "2026.11.1301",
+                         "date":  "2026-11-13",
+                         "channel":  "beta",
+                         "important":  false,
+                         "notes":  "### Added\r\n- Data dictionary viewer. Data imported with a Harvest dictionary now keeps a copy of it (also when saved for later, and for large datasets), so you can see what its values mean at any time. Open it with `Ctrl+Shift+D`, from the search palette (`Ctrl+K`), from the new ⓘ button on a column in a data table, from **What do these values mean?** in a module rule or a Perioperative Table field\u0027s settings, or with **Browse** in Settings → Harvest Dictionary. Search fields and labels; a field shows its codes, labels and how many records have each, which values aren\u0027t used, and values in the data the dictionary doesn\u0027t list (filter **Unlisted values** finds every field with some). Data imported before this has no copy: import it again to see it.\r\n- Harvest import: multi-select fields are translated. A dictionary can mark them with an `is_multiselect` column (Yes on any of the field\u0027s rows); a value such as `1|2` then becomes \"White | Black\", with the labels always in the dictionary\u0027s order, so `2|1` reads the same. Labels are joined with \" | \" because a label can itself contain a semicolon or a colon. A code the dictionary doesn\u0027t list is kept as it is (`White | 9`) and counted in the message after the import. Choose what separates the codes (pipe, comma, semicolon or another character) in the import, or for the saved dictionary in Settings → Harvest Dictionary; pipe is the default. Fields that aren\u0027t marked are matched whole, as before.\r\n\r\n### Changed\r\n- The message after a local file import now stays in Notifications, like other imports, and says whether the Harvest dictionary was applied.\r\n\r\n### Fixed\r\n- Harvest import: a value with commas that isn\u0027t a number written with thousands separators, such as a list of codes `1,2`, was read as one number (`12`) and, if the field had that code, given its label. Such values are now kept as they are (numbers like `1,200` still match). **If any field in your Harvest files can hold comma-separated codes, import those files again**",
+                         "page":  "https://github.com/ravichowdhury88/data-studio-releases/releases/tag/v2026.11.1301",
+                         "files":  {
+                                       "installer":  {
+                                                         "name":  "Data-Studio-2026.11.1301-setup.exe",
+                                                         "url":  "https://github.com/ravichowdhury88/data-studio-releases/releases/download/v2026.11.1301/Data-Studio-2026.11.1301-setup.exe",
+                                                         "size":  13805496,
+                                                         "sha256":  "3dd0ac74e6dcb9a76c88efe8f5d53d9756d092b3134d6017b80a1e5fec2d1993",
+                                                         "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTYUphZ2E4MHlzeG40YSt0QnhobVJ5QXdERFByTWJieWNBVm9pRXpFWFNhSEdra1JHQ3BJWk1ueTJZRzRZcklnVm1TTXJGSFRvS0lWd1VUZG9Ka3ZIYUtxWU0yWGtUOGcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NTkwMjM4CWZpbGU6RGF0YS1TdHVkaW8tMjAyNi4xMS4xMzAxLXNldHVwLmV4ZQp0TUw2NFYwVUlPSFRndWFyOVpoRitoV3MyMlJSSCtGMzErM0N3YVpUQjUxdURvejlPc2xvMVhtaVUxaWF4OWthemsrV3Q4T0ZuSytvaHRaUjhybC9EUT09Cg=="
+                                                     },
+                                       "portable":  {
+                                                        "name":  "Data-Studio-2026.11.1301-portable.exe",
+                                                        "url":  "https://github.com/ravichowdhury88/data-studio-releases/releases/download/v2026.11.1301/Data-Studio-2026.11.1301-portable.exe",
+                                                        "size":  51026208,
+                                                        "sha256":  "b6be16bf279af10ca552ef42973320b571dae367ecfda13e5723332efaf14148",
+                                                        "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTYUphZ2E4MHlzeG9PRncraEwweWozYWNaendwZXkyUGsyYUZFUDV2dWp5QjRoU1Q5YitaYy93a1hTOExWSVRmVnpkTy8vV0JOSzE2QWg0SEFHNERHd0p5WHd5RFNyTmdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NTkwMjM5CWZpbGU6RGF0YS1TdHVkaW8tMjAyNi4xMS4xMzAxLXBvcnRhYmxlLmV4ZQpubURxVlZLam1hNkZ4SHhsK0I4VUpTRWw4QStJS1MrRjRhSHhhNVlRcVdEU3JEeUpWS0VzT3VjbXgvT3R0Q01hV1hIM2tMMDZsOG5QN2t5UzE2RHJBZz09Cg=="
+                                                    }
+                                   }
+                     },
                      {
                          "version":  "2026.11.1205",
                          "date":  "2026-11-12",
