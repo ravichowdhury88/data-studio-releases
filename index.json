@@ -1,13 +1,13 @@
 {
     "format":  "data-studio-update-feed",
     "schemaVersion":  1,
-    "stable":  "2026.11.602",
+    "stable":  "2026.11.1301",
     "beta":  "2026.11.1301",
     "releases":  [
                      {
                          "version":  "2026.11.1301",
                          "date":  "2026-11-13",
-                         "channel":  "beta",
+                         "channel":  "stable",
                          "important":  false,
                          "notes":  "### Added\r\n- Data dictionary viewer. Data imported with a Harvest dictionary now keeps a copy of it (also when saved for later, and for large datasets), so you can see what its values mean at any time. Open it with `Ctrl+Shift+D`, from the search palette (`Ctrl+K`), from the new ⓘ button on a column in a data table, from **What do these values mean?** in a module rule or a Perioperative Table field\u0027s settings, or with **Browse** in Settings → Harvest Dictionary. Search fields and labels; a field shows its codes, labels and how many records have each, which values aren\u0027t used, and values in the data the dictionary doesn\u0027t list (filter **Unlisted values** finds every field with some). Data imported before this has no copy: import it again to see it.\r\n- Harvest import: multi-select fields are translated. A dictionary can mark them with an `is_multiselect` column (Yes on any of the field\u0027s rows); a value such as `1|2` then becomes \"White | Black\", with the labels always in the dictionary\u0027s order, so `2|1` reads the same. Labels are joined with \" | \" because a label can itself contain a semicolon or a colon. A code the dictionary doesn\u0027t list is kept as it is (`White | 9`) and counted in the message after the import. Choose what separates the codes (pipe, comma, semicolon or another character) in the import, or for the saved dictionary in Settings → Harvest Dictionary; pipe is the default. Fields that aren\u0027t marked are matched whole, as before.\r\n\r\n### Changed\r\n- The message after a local file import now stays in Notifications, like other imports, and says whether the Harvest dictionary was applied.\r\n\r\n### Fixed\r\n- Harvest import: a value with commas that isn\u0027t a number written with thousands separators, such as a list of codes `1,2`, was read as one number (`12`) and, if the field had that code, given its label. Such values are now kept as they are (numbers like `1,200` still match). **If any field in your Harvest files can hold comma-separated codes, import those files again**",
                          "page":  "https://github.com/ravichowdhury88/data-studio-releases/releases/tag/v2026.11.1301",
