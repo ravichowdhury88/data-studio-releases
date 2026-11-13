@@ -2,8 +2,32 @@
     "format":  "data-studio-update-feed",
     "schemaVersion":  1,
     "stable":  "2026.11.602",
-    "beta":  "2026.11.1204",
+    "beta":  "2026.11.1205",
     "releases":  [
+                     {
+                         "version":  "2026.11.1205",
+                         "date":  "2026-11-12",
+                         "channel":  "beta",
+                         "important":  false,
+                         "notes":  "### Changed\r\n- Quality → editing a module: a long **Fields shown in results** list scrolls instead of making the page very long (about eight fields show at a time). It says how many fields there are; fields just added, and a field moved with the arrows, scroll into view, and dragging near the edge scrolls the list\r\n\r\n### Fixed\r\n- Quality: a module\u0027s **…** menu (and **Import / export**) was cut off and squeezed into a tiny scrolling area when the list had only one or two modules. The menu now opens over the page, below its button or above it when there isn\u0027t room",
+                         "page":  "https://github.com/ravichowdhury88/data-studio-releases/releases/tag/v2026.11.1205",
+                         "files":  {
+                                       "installer":  {
+                                                         "name":  "Data-Studio-2026.11.1205-setup.exe",
+                                                         "url":  "https://github.com/ravichowdhury88/data-studio-releases/releases/download/v2026.11.1205/Data-Studio-2026.11.1205-setup.exe",
+                                                         "size":  13732464,
+                                                         "sha256":  "7176102fbcbb7cc57e41b25bc50a55af839d2a62c6050b96030ad7486c7980a6",
+                                                         "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTYUphZ2E4MHlzeHYyWGtDejhjbFd1TEM2elBMcFdPTFhQMytiT0xVU3R0TURuRmtPUFRwV2oyWVRsdVhSYXo0M2VOb0hiN3NnUjcxMmE2T1BnbTk4Zm1VdnBCTHpZendrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NTQxNDIxCWZpbGU6RGF0YS1TdHVkaW8tMjAyNi4xMS4xMjA1LXNldHVwLmV4ZQozUzRnemx4VFZMd1hDZE9IM1FodTNseWNadWZqSEtzckFSUFZaYU5QSEZRMzZ2SE54KytTNk96Q0xhUWQyWFhadVE2YmVMYmFHK0RLYWhNRFYzQ1dEQT09Cg=="
+                                                     },
+                                       "portable":  {
+                                                        "name":  "Data-Studio-2026.11.1205-portable.exe",
+                                                        "url":  "https://github.com/ravichowdhury88/data-studio-releases/releases/download/v2026.11.1205/Data-Studio-2026.11.1205-portable.exe",
+                                                        "size":  50861856,
+                                                        "sha256":  "e078ba6c0bb310dc14489c43720d0f851addfc32cdb5a034683fb300f9e2c49e",
+                                                        "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTYUphZ2E4MHlzeHNwWlIzckZXdEhEblI2UytBY1poaFRHMXVMb2ZRUkJZU2RtRWVaS2hRN0Z2alpXRzZRZUFPZWhGdnRzL1hJOThIVVhheGtDNFZWRE9FQStjZzZyN0FzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NTQxNDI0CWZpbGU6RGF0YS1TdHVkaW8tMjAyNi4xMS4xMjA1LXBvcnRhYmxlLmV4ZQpJRTQzOFlvT080MkJ2Rzh0UjBRcVZtcmNlbWpqc0JQYVRONzduTXNJUG4xQmxacVEyWHIzdkRCMEJva2ZQMlZUODJNcmRKUmM4M0pLWG1tVmpxT3ZBZz09Cg=="
+                                                    }
+                                   }
+                     },
                      {
                          "version":  "2026.11.1204",
                          "date":  "2026-11-12",
