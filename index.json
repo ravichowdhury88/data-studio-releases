@@ -2,8 +2,32 @@
     "format":  "data-studio-update-feed",
     "schemaVersion":  1,
     "stable":  "2026.11.602",
-    "beta":  "2026.11.1203",
+    "beta":  "2026.11.1204",
     "releases":  [
+                     {
+                         "version":  "2026.11.1204",
+                         "date":  "2026-11-12",
+                         "channel":  "beta",
+                         "important":  false,
+                         "notes":  "### Changed\r\n- Quality → editing a module, **Fields shown in results**: **Add fields…** picks several fields at once (search, tick as many as you like, or Tick all listed, then Add); they\u0027re added in the order you ticked them. The fields are a list you can reorder by dragging or with the up and down arrows, and the results show them in that order (after the set\u0027s always-shown fields). The picker lists the chosen data\u0027s own fields; **Show fields from other modules in this set** adds the fields the set\u0027s other modules use, and any field the data doesn\u0027t have is marked \"not in this data\" (it shows as blank). Before, each field had to be found and added one at a time, the list mixed in other modules\u0027 fields without saying which the data has, and ID and date fields such as surgdt were always moved to the front",
+                         "page":  "https://github.com/ravichowdhury88/data-studio-releases/releases/tag/v2026.11.1204",
+                         "files":  {
+                                       "installer":  {
+                                                         "name":  "Data-Studio-2026.11.1204-setup.exe",
+                                                         "url":  "https://github.com/ravichowdhury88/data-studio-releases/releases/download/v2026.11.1204/Data-Studio-2026.11.1204-setup.exe",
+                                                         "size":  13739304,
+                                                         "sha256":  "8886e24565589aada526e983916012b20ec399bfd75d7fb4effdf88065b6ded9",
+                                                         "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTYUphZ2E4MHlzeGtQaXAwOUdIallUV2E1Tk00OEtHY0Y3aWZDeWxFSmZ6aE9SRWN5T0lpME1qa1pyOTBHeEtMZHJ1SUdrQWNLd2lIbEtXQnkvcklhOEptdnMzMlMrVHdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NTM4MDEwCWZpbGU6RGF0YS1TdHVkaW8tMjAyNi4xMS4xMjA0LXNldHVwLmV4ZQp6UUVwUGRQdFc0T3ZGeU45UDFSZ01TN2Q1ZEExWEpCMlNhd2FTam1NOEZyKy9YU3lnR0tHUFRDc2E2WEhRL2w5V29RTDBMeHMyalk2RktUQTlnMjJEdz09Cg=="
+                                                     },
+                                       "portable":  {
+                                                        "name":  "Data-Studio-2026.11.1204-portable.exe",
+                                                        "url":  "https://github.com/ravichowdhury88/data-studio-releases/releases/download/v2026.11.1204/Data-Studio-2026.11.1204-portable.exe",
+                                                        "size":  50874656,
+                                                        "sha256":  "2be65b8dde2d8cae43ae02c0cfc6718db5701544f12fb859eb0cab6aad6b941b",
+                                                        "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTYUphZ2E4MHlzeGxEaXUxb1Z4WnY2bXl0SGl6K0VERTliTGxXdnh4alIyR1NhU003Z1g5WWZSc1V2OXdWOHI3S1dXTkNHSlRyUHpQdnM1WEljN1N1ZlIwaTlXWVhxZlFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NTM4MDEzCWZpbGU6RGF0YS1TdHVkaW8tMjAyNi4xMS4xMjA0LXBvcnRhYmxlLmV4ZQpNdFlkVk8xUklKT2IrMENWQ0VHUEd2TllIUjZnU1AxdG5VSHRPZnVwZVo4ZmhwZkRKbE11Szk1NnNJK1J0K2JxcEVjaFVFL0lUUFB2Q3d4TkxUWGNEUT09Cg=="
+                                                    }
+                                   }
+                     },
                      {
                          "version":  "2026.11.1203",
                          "date":  "2026-11-12",
