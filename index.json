@@ -2,8 +2,32 @@
     "format":  "data-studio-update-feed",
     "schemaVersion":  1,
     "stable":  "2026.11.1301",
-    "beta":  "2026.11.1401",
+    "beta":  "2026.11.1402",
     "releases":  [
+                     {
+                         "version":  "2026.11.1402",
+                         "date":  "2026-11-14",
+                         "channel":  "beta",
+                         "important":  false,
+                         "notes":  "### Added\r\n- Settings → **Storage** (was Cache) shows how much space Data Studio uses on this computer, as a chart of what\u0027s kept and what **Clean up** would free. Clean up asks first, then removes large datasets from earlier sessions (they stay in the app\u0027s database when it closes, though nothing can open them again), the database\u0027s unused space, the old cache file and files left by imports that stopped partway. Data saved for later, data loaded now, REDCap data and settings are never touched.\r\n- Search remembers where you were: it opens again on the article you were reading, at the same place, with your search kept, and lists the articles you read last under **Recently read**. Also after a restart.\r\n\r\n### Removed\r\n- The old Cache settings (**Load Cache Now**, **Clear Cache File**, **Show cache restore tools**). Nothing has written that cache since data became session-only; Clean up removes the old file. **Load Cache Now** also replaced whatever was loaded.\r\n\r\n### Changed\r\n- Search (`Ctrl+K`, or **Search** in the sidebar) opens as a panel on the right instead of over the middle of the screen, and an article opens in the panel, so you can read it beside your work instead of being taken to the Help page (**Open in Help** still does that). It also searches the articles\u0027 text, shows the line that matched, and moves through results with the arrow keys and Enter.\r\n- Updates: **Ask me first** is now the default for what happens when there\u0027s a new version (it was **Download, then ask to restart**). If you chose a setting yourself it stays; Settings → Updates changes it.",
+                         "page":  "https://github.com/ravichowdhury88/data-studio-releases/releases/tag/v2026.11.1402",
+                         "files":  {
+                                       "installer":  {
+                                                         "name":  "Data-Studio-2026.11.1402-setup.exe",
+                                                         "url":  "https://github.com/ravichowdhury88/data-studio-releases/releases/download/v2026.11.1402/Data-Studio-2026.11.1402-setup.exe",
+                                                         "size":  13831336,
+                                                         "sha256":  "adac0181b3ac5b32c24ff11a7e427ac8471aabbda712ca9cc55722380f14e272",
+                                                         "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTYUphZ2E4MHlzeHFkWGFrOTdoRktyOC9sZlNhazJmMFcrNmNma2REcWFWNkR3QjhYVU1yNEJJdlU5M2EwejIwQnhJMXRRSGNaY3VrZGg1U21MbUpCcUQ2WmJvcHBwVlFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NzE1NTE4CWZpbGU6RGF0YS1TdHVkaW8tMjAyNi4xMS4xNDAyLXNldHVwLmV4ZQo3QlpiUlZTMUJ5a0V1QTlQKzBoWWpWUGZMUTBFeGdJcVVVa0QyUms3eU0vb3dYUFdwazN6dmwwTU85UTFTS2prUW1pS2tLZkI2N2hWdGowSXdhdTVCZz09Cg=="
+                                                     },
+                                       "portable":  {
+                                                        "name":  "Data-Studio-2026.11.1402-portable.exe",
+                                                        "url":  "https://github.com/ravichowdhury88/data-studio-releases/releases/download/v2026.11.1402/Data-Studio-2026.11.1402-portable.exe",
+                                                        "size":  51179808,
+                                                        "sha256":  "0fe354b98e3ce29878eb734f4f4ec4c6efcb7f981f99273995d45ee6cf0517d8",
+                                                        "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTYUphZ2E4MHlzeGo3Ri9CSndQekwyWWxHektiNCttSUxxTGdBbGtXQkNqTkh5VzQzUU11M2FqSXdNNDFnZExKRG5FNVpQQTgveG8xaFRUWFAwMTNIdXdsRmxQU1liQ3dBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NzE1NTIwCWZpbGU6RGF0YS1TdHVkaW8tMjAyNi4xMS4xNDAyLXBvcnRhYmxlLmV4ZQp5SGRUUnVoWWNoREk0UWtCb3lKU0RVZU1hSlJXaWt6MTlqLzNWRVg2UlpwbFdGVWgvQlpHcCtkNWY5V0JxU0FmODFRbzZwK0JKTVdUK1dGYUtlYmlCUT09Cg=="
+                                                    }
+                                   }
+                     },
                      {
                          "version":  "2026.11.1401",
                          "date":  "2026-11-14",
