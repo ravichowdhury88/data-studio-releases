@@ -2,8 +2,32 @@
     "format":  "data-studio-update-feed",
     "schemaVersion":  1,
     "stable":  "2026.11.1301",
-    "beta":  "2026.11.1301",
+    "beta":  "2026.11.1401",
     "releases":  [
+                     {
+                         "version":  "2026.11.1401",
+                         "date":  "2026-11-14",
+                         "channel":  "beta",
+                         "important":  false,
+                         "notes":  "### Changed\r\n- Harvest import: multi-select values are split on a **comma** by default, as Harvest writes them (`2,3`, `3,6,5`); 2026.11.1301 used a pipe. Their labels are joined with a comma too: `2,3` becomes \"White, Black\" (was \"White | Black\"). A dictionary saved with 2026.11.1301 uses the comma too, unless you choose another separator in Settings → Harvest Dictionary. **If you imported Harvest files with multi-select fields in 2026.11.1301, import them again.** Only fields the dictionary marks as multi-select are split; elsewhere a value with commas is matched whole, as before.",
+                         "page":  "https://github.com/ravichowdhury88/data-studio-releases/releases/tag/v2026.11.1401",
+                         "files":  {
+                                       "installer":  {
+                                                         "name":  "Data-Studio-2026.11.1401-setup.exe",
+                                                         "url":  "https://github.com/ravichowdhury88/data-studio-releases/releases/download/v2026.11.1401/Data-Studio-2026.11.1401-setup.exe",
+                                                         "size":  13807344,
+                                                         "sha256":  "dc7a49fcf45da43db98ed15265c82a0b50595f151f129226cdd665ab771f3b06",
+                                                         "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTYUphZ2E4MHlzeHF1UzRKSHpYa05lRG8xS3lPUVdiOStrMXVESzdaSWtSQis1Qmg1VFRkVFpqbEpXZFl6S0ZGSlNnQk14ZitIZkNnbVEyR09BR3dmc0pYY2dJU2swZmdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NzExODE0CWZpbGU6RGF0YS1TdHVkaW8tMjAyNi4xMS4xNDAxLXNldHVwLmV4ZQptN3F6bm51eXZNdzNZeGhuejhwdkhTTVN3WVJ6alJRVGI1bkxtbllidVZPMnRHbnRSRWFiUitwRHVTK3orZk8xUEd3WC9GVDA0RkpzeUo0Z3o0WkhBdz09Cg=="
+                                                     },
+                                       "portable":  {
+                                                        "name":  "Data-Studio-2026.11.1401-portable.exe",
+                                                        "url":  "https://github.com/ravichowdhury88/data-studio-releases/releases/download/v2026.11.1401/Data-Studio-2026.11.1401-portable.exe",
+                                                        "size":  51027232,
+                                                        "sha256":  "4424f18a3c1c0ddd12f9e721452ee04fb4bb6d151527e31a506d9885c9cec847",
+                                                        "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTYUphZ2E4MHlzeGcrTmFNQWVxcE00MlY0emRJZURqdWVUWEhsL0dyLzFKTG1KRGhpeWszajdXdCttdGRpLzVDd3VXV2d5VUJFR1FZWklmVlgyS3lQNnF3RW9Pcnh3Y3drPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NzExODE3CWZpbGU6RGF0YS1TdHVkaW8tMjAyNi4xMS4xNDAxLXBvcnRhYmxlLmV4ZQpDeGdxWkFBK0ZwbXltQVgxbXBuRElVZ3J6dXU1b3RKV1A4citlYmU4c2YycDdSTVJqZUZsd2wyeENvYWpoNXQ5S1ZWdWk4L0xrRHVXWSs4a0p2YjZDUT09Cg=="
+                                                    }
+                                   }
+                     },
                      {
                          "version":  "2026.11.1301",
                          "date":  "2026-11-13",
